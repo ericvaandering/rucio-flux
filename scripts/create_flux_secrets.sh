@@ -137,6 +137,8 @@ kubectl -n rucio create secret generic ${DAEMON_NAME}-rucio-ca-bundle --from-fil
 kubectl -n rucio create secret generic ${GLOBUS_NAME}-rucio-ca-bundle --from-file=/etc/pki/tls/certs/CERN-bundle.pem
 kubectl -n rucio delete secret ${GLOBUS_NAME}-rucio-x509up
 kubectl -n rucio create secret generic ${GLOBUS_NAME}-rucio-x509up  --from-file=/etc/pki/tls/certs/CERN-bundle.pem # This is a dummy, but needed for container to start
+kubectl -n rucio create secret generic ${GLOBUS_NAME}-fts-cert --from-file=$ROBOTCERT
+kubectl -n rucio create secret generic ${GLOBUS_NAME}-fts-key --from-file=$ROBOTKEY
 
 # Secrets for Load test
 kubectl create -n rucio secret generic ${LOADTEST_NAME}-rucio-ca-bundle --from-file=/etc/pki/tls/certs/CERN-bundle.pem
