@@ -11,12 +11,12 @@ resources:
 #  - ../base/cms-rucio-consistency
   - ../base/cms-rucio-cron
 #  - ../options/tier0-reaper
-  - ../options/loadtest-daemons
-  - ../options/loadtest
-  - ../options/webdav-loadtest
+#  - ../options/loadtest-daemons
+#  - ../options/loadtest
+#  - ../options/webdav-loadtest
   - ../base/rucio-server
   - ../base/rucio-authserver
-  - ../base/rucio-traceserver
+#  - ../base/rucio-traceserver
 
 #  - ../options/globus-daemons
 
