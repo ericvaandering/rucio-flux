@@ -7,16 +7,16 @@ resources:
   - ../base/rucio-daemons
   - ../base/rucio-webui
   - ../base/rucio-probes
-#  - ../base/cms-rucio-traces
+  - ../base/cms-rucio-traces
   - ../base/cms-rucio-consistency
   - ../base/cms-rucio-cron
-#  - ../options/tier0-reaper
-#  - ../options/loadtest-daemons
-#  - ../options/loadtest
-#  - ../options/webdav-loadtest
+  - ../options/tier0-reaper
+  - ../options/loadtest-daemons
+  - ../options/loadtest
+  - ../options/webdav-loadtest
   - ../base/rucio-server
   - ../base/rucio-authserver
-#  - ../base/rucio-traceserver
+  - ../base/rucio-traceserver
 
 #  - ../options/globus-daemons
 
