@@ -5,7 +5,7 @@ resources:
   - ../base
   - ../base/cms-rucio-cvmfs
 #  - ../base/rucio-daemons
-  - ../base/rucio-webui
+#  - ../base/rucio-webui
   - ../base/rucio-probes
 #  - ../base/cms-rucio-traces
 #  - ../base/cms-rucio-consistency
@@ -14,9 +14,9 @@ resources:
 #  - ../options/loadtest-daemons
 #  - ../options/loadtest
 #  - ../options/webdav-loadtest
-  - ../base/rucio-server
-  - ../base/rucio-authserver
-  - ../base/rucio-traceserver
+#  - ../base/rucio-server
+#  - ../base/rucio-authserver
+#  - ../base/rucio-traceserver
 
 #  - ../options/globus-daemons
 
